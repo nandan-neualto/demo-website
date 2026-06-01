@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuAlto - Next-Gen Technology & Engineering Services</title>
+    <meta name="description" content="NeuAlto provides Managed AI Services, DevSecOps, Cloud Engineering, Cybersecurity Consulting, and more. Headquartered in Bangalore and USA.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Announcement Ticker -->
+    <div class="ticker" id="ticker">
+        <div class="ticker-content">
+            <span class="ticker-dot"></span>
+            <a href="https://forms.gle/TMJCrPDvLzTHHyZVA" target="_blank">DeltaMax @ Google Next 2026 – Demo Registration</a>
+            <span class="ticker-separator">•</span>
+            <a href="#careers-section">WE ARE HIRING — Join the NeuAlto Team</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <div class="logo-mark">N</div>
+                <span class="logo-text">Neu<span class="logo-accent">Alto</span></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#services-section" class="nav-link" data-section="services-section">Services</a>
+                <a href="#solutions-section" class="nav-link" data-section="solutions-section">Solutions</a>
+                <a href="#about-section" class="nav-link" data-section="about-section">About</a>
+                <a href="#partners-section" class="nav-link" data-section="partners-section">Partners</a>
+                <a href="#contact-section" class="nav-link" data-section="contact-section">Contact</a>
+            </div>
+            <a href="#contact-section" class="nav-cta">
+                <span>Let's Talk</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <a href="#home" class="mobile-link" data-section="home">Home</a>
+            <a href="#services-section" class="mobile-link" data-section="services-section">Services</a>
+            <a href="#solutions-section" class="mobile-link" data-section="solutions-section">Solutions</a>
+            <a href="#about-section" class="mobile-link" data-section="about-section">About</a>
+            <a href="#partners-section" class="mobile-link" data-section="partners-section">Partners</a>
+            <a href="#contact-section" class="mobile-link" data-section="contact-section">Contact</a>
+            <a href="#contact-section" class="mobile-cta">Get in Touch →</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-animate="fade-up">
+                <span class="badge-dot"></span>
+                Engineering the Future of Technology
+            </div>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                We Build <span class="gradient-text">Intelligent</span><br>
+                Technology Solutions
+            </h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                Architect, Design, Develop and Operationalize enterprise-grade AI, Cloud, DevSecOps, and Cybersecurity solutions — delivering faster and at scale.
+            </p>
+            <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                <a href="#services-section" class="btn-primary">
+                    <span>Explore Services</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#about-section" class="btn-secondary">
+                    <span>Learn More</span>
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="12">0</div>
+                    <div class="stat-label">Trusted Clients</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="6">0</div>
+                    <div class="stat-label">Service Verticals</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="2">0</div>
+                    <div class="stat-label">Global Offices</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Expertise</span>
+                <h2 class="section-title">Services That <span class="gradient-text">Transform</span></h2>
+                <p class="section-desc">End-to-end technology services designed to accelerate your digital transformation journey.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">Managed AI Services</h3>
+                    <p class="service-desc">Architect, Design, Develop, Manage, Facilitate and Operationalize the power of complicated resource-intensive AI/ML tasks working with a trusted partner who can provide end-to-end solutions for your enterprise and deliver faster and at-scale.</p>
+                    <div class="service-tags">
+                        <span>AI/ML</span><span>GenAI</span><span>MLOps</span>
+                    </div>
+                    <a href="#contact-section" class="service-link">
+                        <span>Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 14a1 1 0 01-.78-1.63l9.9-10.2a.5.5 0 01.86.46l-1.92 6.02A1 1 0 0013 10h7a1 1 0 01.78 1.63l-9.9 10.2a.5.5 0 01-.86-.46l1.92-6.02A1 1 0 0011 14H4z"/></svg>
+                    </div>
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">DevSecOps, Cloud Engineering & Kubernetes</h3>
+                    <p class="service-desc">Experience a seamless journey to Cloud using DevSecOps and optimize deployment by unlocking the potential of containerization and Kubernetes.</p>
+                    <div class="service-tags">
+                        <span>DevOps</span><span>K8s</span><span>Cloud</span>
+                    </div>
+                    <a href="#contact-section" class="service-link">
+                        <span>Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg>
+                    </div>
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">Data Transformation & Migration (EDI)</h3>
+                    <p class="service-desc">EDI projects can be challenging and require a variety of capabilities, skills and resources. Explore more to understand how we can partner and help.</p>
+                    <div class="service-tags">
+                        <span>EDI</span><span>Data</span><span>Migration</span>
+                    </div>
+                    <a href="#contact-section" class="service-link">
+                        <span>Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <div class="service-number">04</div>
+                    <h3 class="service-title">Engineering & IT</h3>
+                    <p class="service-desc">Harness the power of data, connectivity and software to pioneer Intelligent Industry. We unleash the potential of R&D and innovation to help our clients create smart products, Mobile Apps, optimize operations, to solve real world problems.</p>
+                    <div class="service-tags">
+                        <span>Apps</span><span>R&D</span><span>IoT</span>
+                    </div>
+                    <a href="#contact-section" class="service-link">
+                        <span>Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <div class="service-number">05</div>
+                    <h3 class="service-title">Testing & Automation</h3>
+                    <p class="service-desc">Test Automation is critical to digital success. We combine best practices, emerging technologies and capabilities to build your testing and automated QA workflows, serving as a catalyst for reduced regression testing timelines.</p>
+                    <div class="service-tags">
+                        <span>QA</span><span>CI/CD</span><span>Testing</span>
+                    </div>
+                    <a href="#contact-section" class="service-link">
+                        <span>Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <div class="service-number">06</div>
+                    <h3 class="service-title">Cybersecurity Consulting & vCISO Services</h3>
+                    <p class="service-desc">With the rapid pace of innovation, digital transformation and speed to market, most organizations ignore the evolving cyber threats and dynamic regulatory landscape. We help strengthen your cybersecurity posture.</p>
+                    <div class="service-tags">
+                        <span>Security</span><span>vCISO</span><span>GRC</span>
+                    </div>
+                    <a href="#contact-section" class="service-link">
+                        <span>Explore</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why NeuAlto Section -->
+    <section class="section why-us" id="why-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">Why <span class="gradient-text">NeuAlto</span>?</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-animate="fade-up" data-delay="0">
+                    <div class="why-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Extensive Expertise</h3>
+                    <p>Our industry experience of many years will help empower your business with custom software design, development, security and testing services. We align with your business needs and help you succeed.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="100">
+                    <div class="why-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 9V5a3 3 0 00-3-3l-4 9v11h11.28a2 2 0 002-1.7l1.38-9a2 2 0 00-2-2.3H14z"/><path d="M7 22H4a2 2 0 01-2-2v-7a2 2 0 012-2h3"/></svg>
+                    </div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>We are committed to delivering quality services with a focus on customer satisfaction. Our use of technology ensures exceptional customer experiences.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="200">
+                    <div class="why-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>Our experienced consultants prioritize integrity and deliver top-notch results, setting the standard for quality work aligned with your objectives.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="300">
+                    <div class="why-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+                    </div>
+                    <h3>Strategic Scalability</h3>
+                    <p>We understand the changing demands of projects, we scale up proficient resources based on your business needs and help ensure cost-efficiency and success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="section solutions" id="solutions-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Products</span>
+                <h2 class="section-title">Innovative <span class="gradient-text">Solutions</span></h2>
+                <p class="section-desc">Purpose-built platforms designed to solve complex business challenges with cutting-edge technology.</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card" data-animate="fade-up" data-delay="0">
+                    <div class="solution-glow"></div>
+                    <div class="solution-header">
+                        <div class="solution-icon-wrap">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+                        </div>
+                        <span class="solution-badge">Platform</span>
+                    </div>
+                    <h3 class="solution-title">DeltaMax</h3>
+                    <p class="solution-subtitle">Intelligent Data Quality Monitoring Platform</p>
+                    <p class="solution-desc">Enterprise-grade data quality monitoring that ensures your data pipelines are reliable, accurate, and always production-ready.</p>
+                    <a href="https://forms.gle/TMJCrPDvLzTHHyZVA" target="_blank" class="solution-cta">
+                        <span>Register for Demo</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+                <div class="solution-card" data-animate="fade-up" data-delay="150">
+                    <div class="solution-glow solution-glow-alt"></div>
+                    <div class="solution-header">
+                        <div class="solution-icon-wrap solution-icon-alt">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V5a2 2 0 00-2-2H6a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                        </div>
+                        <span class="solution-badge solution-badge-alt">Platform</span>
+                    </div>
+                    <h3 class="solution-title">OptiMax</h3>
+                    <p class="solution-subtitle">Marketing Revenue Engine</p>
+                    <p class="solution-desc">Transforming Marketing into a Revenue Engine — optimize campaigns, maximize ROI, and turn marketing data into actionable business intelligence.</p>
+                    <a href="#contact-section" class="solution-cta solution-cta-alt">
+                        <span>Learn More</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Client Stories</span>
+                <h2 class="section-title">What Our Clients <span class="gradient-text">Say</span></h2>
+            </div>
+            <div class="testimonials-slider" data-animate="fade-up" data-delay="100">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                        </div>
+                        <p class="testimonial-text">Neualto understands the growth challenges faced by promising emerging start-up's and help build-operate engineering (product management, development and quality) team to align with business goals and keep costs frugal.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SH</div>
+                            <div class="author-info">
+                                <strong>Srihari Hosahalli</strong>
+                                <span>Co-Founder, Asato Technology and Engineering</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                        </div>
+                        <p class="testimonial-text">Neualto's helped us quickly build a talented team of software developers and QA engineers who played a pivotal role in our journey at Nirmata. Their dedicated efforts and expertise in Kubernetes were instrumental in taking our company to the next level. We're grateful for their partnership.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">DT</div>
+                            <div class="author-info">
+                                <strong>Damien Toledo</strong>
+                                <span>Co-Founder & VP Engineering, Nirmata Inc.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                        </div>
+                        <p class="testimonial-text">I consulted with NeuAlto for guidance and advise on cybersecurity products and was thoroughly impressed. The team possesses in-depth knowledge and expertise in cybersecurity. Highly recommended!</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MB</div>
+                            <div class="author-info">
+                                <strong>Mangesh Bhamre</strong>
+                                <span>Founder Cybird (Ex-Founder, NetSequre)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" id="prevTestimonial" aria-label="Previous testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots">
+                        <button class="dot active" data-index="0" aria-label="Testimonial 1"></button>
+                        <button class="dot" data-index="1" aria-label="Testimonial 2"></button>
+                        <button class="dot" data-index="2" aria-label="Testimonial 3"></button>
+                    </div>
+                    <button class="testimonial-btn" id="nextTestimonial" aria-label="Next testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted Clients Section -->
+    <section class="section clients" id="clients-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Trusted By</span>
+                <h2 class="section-title">Our Trusted <span class="gradient-text">Clients</span></h2>
+            </div>
+            <div class="clients-marquee" data-animate="fade-up" data-delay="100">
+                <div class="marquee-track">
+                    <div class="client-logo"><span>Cleo</span></div>
+                    <div class="client-logo"><span>Mytonomy</span></div>
+                    <div class="client-logo"><span>Lodestar</span></div>
+                    <div class="client-logo"><span>Zeesense</span></div>
+                    <div class="client-logo"><span>Safences</span></div>
+                    <div class="client-logo"><span>NetSequre</span></div>
+                    <div class="client-logo"><span>Phalita</span></div>
+                    <div class="client-logo"><span>TopEng</span></div>
+                    <div class="client-logo"><span>Gold Farm</span></div>
+                    <div class="client-logo"><span>Remoba</span></div>
+                    <div class="client-logo"><span>Nirmata</span></div>
+                    <div class="client-logo"><span>NOW</span></div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="client-logo"><span>Cleo</span></div>
+                    <div class="client-logo"><span>Mytonomy</span></div>
+                    <div class="client-logo"><span>Lodestar</span></div>
+                    <div class="client-logo"><span>Zeesense</span></div>
+                    <div class="client-logo"><span>Safences</span></div>
+                    <div class="client-logo"><span>NetSequre</span></div>
+                    <div class="client-logo"><span>Phalita</span></div>
+                    <div class="client-logo"><span>TopEng</span></div>
+                    <div class="client-logo"><span>Gold Farm</span></div>
+                    <div class="client-logo"><span>Remoba</span></div>
+                    <div class="client-logo"><span>Nirmata</span></div>
+                    <div class="client-logo"><span>NOW</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about-section">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-content" data-animate="fade-up">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">About <span class="gradient-text">NeuAlto</span></h2>
+                    <div class="about-text">
+                        <p class="about-highlight">Headquartered in Bangalore and USA, NeuAlto brings in the experience of an enterprise with proven track record of its leadership team who have experience in Engineering, Security, IT Services and Management.</p>
+                        <p>NeuAlto helps customers adopt cloud by providing comprehensive cloud solutions and help manage end to end AI services. NeuAlto leverages the power of AI, so customers can offload the complexities of generative AI/ML workflows to drive efficiency, enhance user experience, and make informed AI generated business decisions and processes.</p>
+                        <p>We provide web and mobile application development by adopting secure by design framework and automation testing.</p>
+                        <p>NeuAlto understands the growth challenges faced by promising emerging start-up's and help build-operate engineering (product management, development and quality) team to align with business goals and keep costs frugal.</p>
+                        <p>At NeuAlto, we work on emerging new technologies, offer architecture solutions and alternatives, and add technology value to the needs of the customer/engagement.</p>
+                    </div>
+                </div>
+                <div class="about-side" data-animate="fade-up" data-delay="200">
+                    <div class="about-card-group">
+                        <div class="about-info-card">
+                            <h4>Our Unique Value Proposition</h4>
+                            <ul>
+                                <li>Accelerate speed to market</li>
+                                <li>Leverage Emerging Technologies</li>
+                                <li>Optimize Engineering Services</li>
+                            </ul>
+                        </div>
+                        <div class="about-info-card">
+                            <h4>Core Offerings</h4>
+                            <ul>
+                                <li>Product Engineering Services</li>
+                                <li>Web and Mobile Application Development</li>
+                                <li>Managed AI/ML Services</li>
+                                <li>DevSecOps and Automation</li>
+                                <li>Cyber Security Consulting</li>
+                            </ul>
+                        </div>
+                        <div class="about-info-card">
+                            <h4>Differentiators</h4>
+                            <ul>
+                                <li>Secure development life cycle</li>
+                                <li>Standard Software Engineering practices</li>
+                            </ul>
+                        </div>
+                        <div class="about-info-card">
+                            <h4>Engagement Model</h4>
+                            <ul>
+                                <li>Extended Product Engineering Outsource Center</li>
+                                <li>Fixed Price Engagements</li>
+                                <li>Consulting and T & M</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="section leadership" id="leadership-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Leadership</span>
+                <h2 class="section-title">Leadership <span class="gradient-text">Team</span></h2>
+            </div>
+            <div class="leaders-grid" data-animate="fade-up" data-delay="100">
+                <div class="leader-card">
+                    <div class="leader-avatar">
+                        <div class="leader-initials">HKR</div>
+                        <div class="leader-ring"></div>
+                    </div>
+                    <h3 class="leader-name">Hemanth K Rajasekhar</h3>
+                    <p class="leader-title">Founder & Managing Director, India</p>
+                    <a href="https://www.linkedin.com/in/hemanth-k-rajasekhar-abba0b2/" target="_blank" rel="noreferrer" class="leader-linkedin" aria-label="Hemanth's LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar">
+                        <div class="leader-initials">MB</div>
+                        <div class="leader-ring"></div>
+                    </div>
+                    <h3 class="leader-name">Mohan Bethur</h3>
+                    <p class="leader-title">Founder & Managing Director, USA</p>
+                    <a href="https://www.linkedin.com/in/mohanbk" target="_blank" rel="noreferrer" class="leader-linkedin" aria-label="Mohan's LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="section partners" id="partners-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Ecosystem</span>
+                <h2 class="section-title">Our Trusted <span class="gradient-text">Partners</span></h2>
+                <p class="section-desc">We collaborate with industry-leading partners to deliver innovative, scalable, and reliable solutions. Together, we create value-driven ecosystems that accelerate business growth and transformation.</p>
+            </div>
+            <div class="partners-grid" data-animate="fade-up" data-delay="100">
+                <div class="partner-card">
+                    <div class="partner-logo-wrap">
+                        <span class="partner-name-display">Katalyst Street</span>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo-wrap">
+                        <span class="partner-name-display">CrashPlan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers CTA Section -->
+    <section class="section careers-cta" id="careers-section">
+        <div class="container">
+            <div class="careers-banner" data-animate="fade-up">
+                <div class="careers-bg-pattern"></div>
+                <div class="careers-content">
+                    <div class="careers-text">
+                        <span class="section-tag" style="color: rgba(255,255,255,0.7);">Careers</span>
+                        <h2>NeuAlto is an energetic group of knowledgeable professionals and technically sound leaders.</h2>
+                        <p>Join us and be part of something extraordinary. We're always looking for talented individuals who share our passion for technology.</p>
+                    </div>
+                    <a href="https://www.linkedin.com/company/neualto-technologies-pvt-ltd/about/" target="_blank" class="careers-btn">
+                        <span>Join NeuAlto</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact-section">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info" data-animate="fade-up">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Let's Start a <span class="gradient-text">Conversation</span></h2>
+                    <p class="contact-desc">Want to find out how NeuAlto can help your business? Let's connect!</p>
+                    
+                    <div class="contact-locations">
+                        <div class="location-card">
+                            <div class="location-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="location-details">
+                                <h4>India — Bengaluru</h4>
+                                <p>42, Old Kanakapura Rd, near Mecon Limited, Basavanagudi, Bengaluru, Karnataka 560004</p>
+                                <div class="location-contacts">
+                                    <a href="tel:+917338555064">+91 733 855 5064</a>
+                                    <a href="mailto:info@neualto.com">info@neualto.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="location-card">
+                            <div class="location-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="location-details">
+                                <h4>USA — Greater Atlanta Area</h4>
+                                <p>6470 East Johns Crossing, Suite 160, Johns Creek, GA 30097</p>
+                                <div class="location-contacts">
+                                    <a href="tel:+14082180503">+1-408-218-0503</a>
+                                    <a href="mailto:info@neualto.com">info@neualto.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/company/neualto-technologies-pvt-ltd/about/" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap" data-animate="fade-up" data-delay="200">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a message</h3>
+                        <div class="form-group">
+                            <label for="contact-name">Full Name</label>
+                            <input type="text" id="contact-name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email Address</label>
+                            <input type="email" id="contact-email" placeholder="you@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone">Phone Number</label>
+                            <input type="tel" id="contact-phone" placeholder="+1 (555) 000-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" rows="4" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="form-submit" id="form-submit-btn">
+                            <span>Send Message</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-mark">N</div>
+                        <span class="logo-text">Neu<span class="logo-accent">Alto</span></span>
+                    </div>
+                    <p class="footer-tagline">Engineering the Future of Technology</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <a href="#services-section">Services</a>
+                        <a href="#solutions-section">Solutions</a>
+                        <a href="#about-section">About Us</a>
+                        <a href="#partners-section">Partners</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get Started</h4>
+                        <a href="#careers-section">Careers</a>
+                        <a href="#contact-section">Contact Us</a>
+                        <a href="https://www.linkedin.com/company/neualto-technologies-pvt-ltd/about/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NeuAlto Technologies Pvt Ltd. All rights reserved.</p>
+                <div class="footer-badges">
+                    <span class="duns-badge">D&B Registered</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
